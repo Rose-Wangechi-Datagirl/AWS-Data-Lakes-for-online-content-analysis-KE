@@ -1,6 +1,16 @@
 
 # **Kenyan Trends Analysis Using APIs, AWS, and Data Lakes**
 
+## Table of Contents
+- [Introduction](#Introduction)
+- [Objective and Problem Statement](#objective-and-problem-statement)
+- [Key Insights](#key-insights)
+- [Technologies Used](#technologies-used)
+- [Project Workflow](#project-workflow)
+- [Project Structure](#project-structure)
+- [How the Code Works](#how-the-code-works)
+- [Insights and Conclusion](#insights-and-conclusion)
+
 ## **Introduction** 
 
 This project showcases how to work with cloud platforms, build **data lakes**, interact with various **APIs**, and conduct data analysis using **SQL in AWS Athena**. The objective is to extract, enrich, store, and analyze trending data in Kenya from multiple platforms. The results help explore patterns in **news consumption, sports interest, online discussions**, and engagement metrics across social media platforms.
@@ -64,13 +74,13 @@ These observations indicate that measuring engagement purely through likes or co
 ```
 /project-folder
 │
-├── reddit_trending_ke.json     # Enriched Reddit data  
-├── google_trends.json          # Google Trends data  
-├── s3_upload.py                # Python script to upload data to AWS S3  
-├── analysis_queries.sql        # SQL queries for data analysis in Athena  
-├── .env                        # API keys and AWS credentials (hidden from GitHub)  
-├── requirements.txt            # Python dependencies  
-└── README.md                   # This file  
+├── venv     
+├── google_trends.py            
+├── redditdata.py                
+├── analysis_queries.sql       
+├── .env                        
+├── requirements.txt             
+└── youtube.py                     
 ```
 ---
 
