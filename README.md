@@ -1,6 +1,8 @@
 
 # **Kenyan Trends Analysis Using APIs, AWS, and Data Lakes**
 
+## **Introduction** 
+
 This project showcases how to work with cloud platforms, build **data lakes**, interact with various **APIs**, and conduct data analysis using **SQL in AWS Athena**. The objective is to extract, enrich, store, and analyze trending data in Kenya from multiple platforms. The results help explore patterns in **news consumption, sports interest, online discussions**, and engagement metrics across social media platforms.
 
 ---
